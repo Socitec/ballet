@@ -1,0 +1,44 @@
+* {
+  line-height: normal;
+  letter-spacing: normal;
+  z-index: 0;
+  font-family: var(--font-noto-serif-jp);
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  align-items: flex-end;
+}
+
+.c_main-wrapper {
+  width: min(100%, var(--width-main));
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.c_pc-only {
+
+}
+
+.c_sp-only {
+  display: none;
+}
