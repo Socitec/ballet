@@ -93,6 +93,10 @@
     font-size: var(--font-size-3xl);
   }
 
+  .arrow-icon {
+    width: 30px;
+  }
+  
   .bottomlink-text {
     font-size: var(--font-size-6xl);
   }

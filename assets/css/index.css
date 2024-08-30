@@ -316,8 +316,7 @@
     margin-left: auto;
     text-align: center;
     padding: 10px;
-    background: linear-gradient(to right, var(--color-rosybrown-900), var(--color-rosybrown-800)),
-      linear-gradient(to top, var(--color-rosybrown-800), var(--color-rosybrown-900));
+    background: linear-gradient(to top right, var(--color-rosybrown-900), var(--color-rosybrown-800));
   }
 
   .inner-frame {
