@@ -1,0 +1,160 @@
+/* Recital Page */
+
+
+.latestEvent-section {
+  padding-top: 70.94px;
+
+  .main-container {
+    position: relative;
+    padding-top: 149px;
+  }
+
+  .box {
+    display: grid;
+    grid-template-columns: 380px auto;
+    gap: 61px;
+    background: rgb(201, 167, 160, 0.2);
+    padding-left: 45px;
+    padding-right: 42px;
+  }
+
+  .section-image {
+    width: 100%;
+    transform: translate(0, -48px);
+    box-shadow: 10px 10px var(--color-rosybrown-200);
+  }
+
+  .inner {
+    padding-top: 40px;
+    padding-bottom: 41px;
+    min-height: 296px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .subheading-portion {
+    padding-right: 22px;
+  }
+
+  .subheading-text {
+    padding-bottom: 21px;
+    padding-inline-start: 10px;
+    color: var(--color-rosybrown-300);
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--color-rosybrown-300);
+    letter-spacing: 2px;
+  }
+
+  .subheading-text--english {
+    letter-spacing: 5px;
+    color: var(--color-rosybrown-300);
+  }
+
+  .text-portion {
+    padding-top: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .sub2heading-text {
+    font-size: var(--font-size-bas);
+    color: var(--color-dimgray-200);
+    line-height: 28px;
+    letter-spacing: 0.1em;
+  }
+
+  .main-text {
+    font-size: var(--font-size-bas);
+    color: var(--color-rightblack);
+    letter-spacing: 1px;
+  }
+
+  .button-area {
+    display: flex;
+  }
+
+  .button-link {
+    margin-left: auto;
+  }
+
+  .detail-button {
+    margin-inline-start: auto;
+    background: var(--color-rosybrown-200);
+    color: var(--color-white);
+    padding: 3px 4px;
+    border: none;
+  }
+
+  .inner-frame {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    border: 1px solid var(--color-white);
+    padding: 6px 25px;
+  }
+
+  .detail-text {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: var(--color-white);
+  }
+
+  .detail-english {
+    font-size: 10px;
+    color: var(--color-white);
+  }
+
+  .subtext {
+    position: absolute;
+    font-size: var(--font-size-13xl);
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-family: var(--font-charmonman);
+    color: var(--color-rosybrown-100);
+    text-align: right;
+    display: inline-block;
+    transform-origin: 0 0;
+  }
+
+}
+
+.pastEvent-section {
+  padding-top: 80.03px;
+
+  .main-box {
+    padding-top: 53.94px;
+  }
+
+  .main-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background-color: var(--color-rosybrown-500);
+    padding: 28px 40px 48px;
+  }
+
+  .event-date {
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-rightblack);
+  }
+
+  .sub2heading-text {
+    padding-bottom: 9px;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-rosybrown-300);
+    letter-spacing: 0.2em;
+    font-weight: bold;
+  }
+
+  .event-image {
+    width: 100%;
+    aspect-ratio: 320 / 240;
+    object-fit: contain;
+  }
+}

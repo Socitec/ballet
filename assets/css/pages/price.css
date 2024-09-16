@@ -1,0 +1,49 @@
+/* Price Page */
+
+.price-page {
+
+  .description-section {
+    padding-top: 97px;
+
+    .inner {
+      display: grid;
+      gap: 65px;
+      width: min(100%, 900px);
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .description-box {}
+
+    .subheading3-text {
+      width: 100%;
+      border-top: 1px solid var(--color-rosybrown-600);
+      border-bottom: 1px solid var(--color-rosybrown-600);
+      text-align: center;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      font-size: var(--font-size-lg);
+      line-height: 24px;
+      font-weight: bold;
+      color: var(--color-rosybrown-200);
+    }
+
+    .description-text {
+      text-align: center;
+      padding-top: 14px;
+      font-size: var(--font-size-sm);
+      line-height: 24px;
+      letter-spacing: 0.1em;
+      color: var(--color-black);
+    }
+
+    .description-text--large {
+      font-size: var(--font-size-bas);
+      line-height: 24px;
+      letter-spacing: 0.1em;
+      color: var(--color-black);
+    }
+  }
+
+
+}

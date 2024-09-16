@@ -1,0 +1,130 @@
+/* Beginner Page */
+
+.beginner-page {
+  .top-text-section {
+    padding-top: 80px;
+
+    .top-text {
+      font-size: var(--font-size-base);
+      letter-spacing: 0.1em;
+      line-height: 30px;
+      color: var(--color-rightblack);
+      text-align: center;
+    }
+
+  }
+
+  .beginner-section {
+
+    .box {
+      width: min(100%, var(--width-various2));
+      min-height: 600px;
+      padding: 30px 40px 34px calc(var(--width-various2) + var(--width-picture2) + 50px - 100%);
+    }
+
+
+    .section-image {
+      width: min(100%, var(--width-picture2));
+    }
+
+  }
+
+  .merit-section {
+    padding-top: 130px;
+
+    .box {
+      width: min(100%, var(--width-various2));
+      min-height: 580px;
+      padding: 40px calc(var(--width-various2) + var(--width-picture2) + 50px - 100%) 34px 52px;
+    }
+
+
+    .section-image {
+      width: min(100%, var(--width-picture2));
+    }
+  }
+
+  .lesson-section {
+    padding-top: 90px;
+
+    .main-area {
+      padding-top: 49.95px;
+
+    }
+
+    .inner {
+      width: min(100%, 900px);
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .step-item {
+      display: grid;
+      grid-template-columns: 120px auto;
+      gap: 70px;
+      width: 100%;
+      min-height: 161px;
+      padding: 15px;
+      background-color: var(--color-gray-300);
+      border: 2px solid var(--color-rosybrown-200);
+    }
+
+    .number-portion {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--color-rosybrown-200);
+    }
+
+    .number-text {
+      width: 100%;
+      color: var(--color-white);
+      font-size: 40px;
+      text-align: center;
+      font-family: var(--font-charmonman);
+    }
+
+    .text-portion {
+      display: flex;
+      align-items: center;
+    }
+
+    .innder-text {
+      font-size: var(--font-size-base);
+      line-height: 26px;
+      letter-spacing: 0.1em;
+    }
+
+    .icon-box {
+      display: flex;
+      justify-content: center;
+      padding-top: 3px;
+      padding-bottom: 10px;
+    }
+
+    .triangle-down {
+      background-color: var(--color-rosybrown-200);
+      height: calc(45px / 2);
+      width: 45px;
+      clip-path: polygon(0 0, 100% 0, 50% 100%);
+    }
+
+    .text-area {
+      padding-top: 26px;
+    }
+
+    .bottom-text {
+      text-align: center;
+      font-size: var(--font-size-base);
+      line-height: 30px;
+      letter-spacing: 0.1em;
+    }
+
+    .bottom-text--bold {
+      font-weight: bold;
+    }
+  }
+
+}

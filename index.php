@@ -1,93 +1,21 @@
-<!DOCTYPE html>
-<html>
+<?php
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="initial-scale=1, width=device-width" />
-  <link rel="stylesheet" href="assets/css/general/destyle.css" />
-  <link rel="stylesheet" href="assets/css/general/variable.css" />
-  <link rel="stylesheet" href="assets/css/general/common.css" />
-  <link rel="stylesheet" href="assets/css/pc/header.css" />
-  <link rel="stylesheet" href="assets/css/pc/footer.css" />
-  <link rel="stylesheet" href="assets/css/pc/index.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;500&display=swap" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Noto Serif JP:wght@200;400;500;600;700&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400&display=swap" />
-  <script src="https://kit.fontawesome.com/8c26bedd20.js" crossorigin="anonymous"></script>
-</head>
+/**
+ * Template Name: front_page
+ * Description: トップ
+ */
+?>
 
-<body>
-  <header class="header">
-    <div class="logo-area">
-      <a class="header-logo-link" href="">
-        <img class="logo-icon" loading="lazy" alt="" src="assets/img/header_logo.png" />
-      </a>
-    </div>
-    <div class="menu-area">
-      <ul class="menu-list">
-        <a class="menu-link" href="">
-          <li class="menu-item">
-            <p class="top-text">about</p>
-            <p class="bottom-text">教室紹介</p>
-          </li>
-        </a>
-        <a class="menu-link" href="">
-          <li class="menu-item">
-            <p class="top-text">for beginner</p>
-            <p class="bottom-text">初めての方</p>
-          </li>
-        </a>
-        <a class="menu-link" href="">
-          <li class="menu-item">
-            <p class="top-text">class information</p>
-            <p class="bottom-text">クラス紹介</p>
-          </li>
-        </a>
-        <a class="menu-link" href="">
-          <li class="menu-item">
-            <p class="top-text">price</p>
-            <p class="bottom-text">料金</p>
-          </li>
-        </a>
-        <a class="menu-link" href="">
-          <li class="menu-item">
-            <p class="top-text">Recital</p>
-            <p class="bottom-text">発表会</p>
-          </li>
-        </a>
-        <a class="menu-link" href="">
-          <li class="menu-item">
-            <p class="top-text">Question</p>
-            <p class="div">Q&A</p>
-          </li>
-        </a>
-      </ul>
-      <a class="contact-link" href="">
-        <div class="contact-box">
-          <div class="icon-portion">
-            <img class="arrow-icon" src="assets/img/arrow-icon.png" alt="arrow">
-          </div>
-          <div class="text-portion">
-            <p class="toplink-text">
-              まずは無料で
-            </p>
-            <p class="bottomlink-text">
-              見学・体験
-            </p>
-          </div>
-        </div>
-      </a>
-    </div>
-  </header>
+<?php get_header(); ?>
+<main class="top-content">
   <section class="">
-    <img src="assets/img/top_mainvisual_pc.jpg" alt="valletschool">
+    <img src="<?= esc_url(get_template_directory_uri()) ?>/assets/img/top_mainvisual_pc.jpg" alt="valletschool">
   </section>
 
   <div class="c_main-wrapper">
-    <section class="c_section c_main-section school-section">
+    <section class="c_section c_main-section school-section c_image-text-section">
       <div class="main-container">
-        <img class="section-image" src="assets/img/top_introduction.jpg" alt="">
+        <img class="section-image" src="<?= esc_url(get_template_directory_uri()) ?>/assets/img/top_introduction.jpg" alt="">
         <div class="box">
           <div class="inner">
             <div class="text-portion">
@@ -100,7 +28,7 @@
               </p>
             </div>
             <div class="button-area">
-              <a class="button-link" href="">
+              <a class="button-link" href="<?= esc_url(home_url('/about/')); ?>">
                 <button class="detail-button">
                   <div class="inner-frame">
                     <p class="detail-text">詳しくはこちら</p>
@@ -115,9 +43,9 @@
       </div>
     </section>
 
-    <section class="c_section c_main-section beginner-section">
+    <section class="c_section c_main-section beginner-section c_text-image-section">
       <div class="main-container">
-        <img class="section-image" src="assets/img/top_beginner.jpg" alt="balletstudent">
+        <img class="section-image" src="<?= esc_url(get_template_directory_uri()) ?>/assets/img/top_beginner.jpg" alt="balletstudent">
         <div class="box">
           <div class="inner">
             <div class="text-portion">
@@ -131,7 +59,7 @@
               </p>
             </div>
             <div class="button-area">
-              <a class="button-link" href="">
+              <a class="button-link" href="<?= esc_url(home_url('/beginner/')); ?>">
                 <button class="detail-button">
                   <div class="inner-frame">
                     <p class="detail-text">詳しくはこちら</p>
@@ -148,7 +76,7 @@
 
     <section class="c_section c_main-section class-section">
       <div class="main-container">
-        <img class="section-image" src="assets/img/top_class.jpg" alt="balletstudent">
+        <img class="section-image" src="<?= esc_url(get_template_directory_uri()) ?>/assets/img/top_class.jpg" alt="balletstudent">
         <div class="box">
           <div class="inner">
             <div class="text-portion">
@@ -163,7 +91,7 @@
               </p>
             </div>
             <div class="button-area">
-              <a class="button-link" href="">
+              <a class="button-link" href="<?= esc_url(home_url('/class/')); ?>">
                 <button class="detail-button">
                   <div class="inner-frame">
                     <p class="detail-text">詳しくはこちら</p>
@@ -181,7 +109,7 @@
     <section class="price-section">
       <div class="main-container">
         <h2 class="heading-text">Price</h2>
-        <a class="button-link" href="">
+        <a class="button-link" href="<?= esc_url(home_url('/price/')); ?>">
           <button class="button">
             レッスン料金について
           </button>
@@ -189,8 +117,8 @@
         <p class="bottom-text">
           各クラスごとのレッスン料金についてご紹介します。
         </p>
-        <img class="price-ribon price-ribon--topright" alt="ribon" src="./assets/img/top_price-ribon1.svg" />
-        <img class="price-ribon price-ribon--bottomleft" alt="ribon" src="./assets/img/top_price-ribon2.svg" />
+        <img class="price-ribon price-ribon--topright" alt="ribon" src="<?= esc_url(get_template_directory_uri()) ?>/assets/img/top_price-ribon1.svg" />
+        <img class="price-ribon price-ribon--bottomleft" alt="ribon" src="<?= esc_url(get_template_directory_uri()) ?>/assets/img/top_price-ribon2.svg" />
       </div>
     </section>
 
@@ -265,8 +193,8 @@
           </ul>
         </div>
         <div class="bottom-box">
-          <a class="more-link" href="">
-            <i class="fa-solid fa-caret-right"></i>
+          <a class="more-link" href="<?= esc_url(home_url('/recital/')); ?>">
+            <i class="fa-solid fa-caret-right triangle-icon"></i>
             <p class="bottom-text">
               read more
             </p>
@@ -332,105 +260,18 @@
           </ul>
         </div>
         <div class="bottom-box">
-          <a class="more-link" href="">
-            <i class="fa-solid fa-caret-right"></i>
+          <a class="more-link" href="<?= esc_url(home_url('/question/')); ?>">
+            <i class="fa-solid fa-caret-right triangle-icon"></i>
             <p class="bottom-text">
               read more
             </p>
           </a>
         </div>
       </section>
+
     </div>
 
-    <section class="c_section contact-section">
-      <div class="main-box">
-        <a class="contact-link" href="">
-          <div class="inner-frame">
-            <div class="heading-portion">
-              <img class="arrow-icon" src="assets/img/arrow-icon.png" alt="arrow">
-              <h2 class="heading-text">
-                まずは<span class="large-text">無料</span>で<span class="large-text">見学・体験</span>
-              </h2>
-            </div>
-            <p class="sub-text">
-              お問い合わせは公式LINEから
-            </p>
-            <img class="line-icon" src="assets/img/line-icon.png" alt="line">
-          </div>
-        </a>
-      </div>
-    </section>
+    <?php get_template_part('parts/line'); ?>
   </div>
-
-
-
-
-  <footer class="footer">
-    <div class="c_main-wrapper footer-inner">
-      <div class="footer-image-box">
-        <a class="footer-logo-link" href="">
-          <img class="footer-logo-icon_pc c_pc-only" src="assets/img/footer_logo.png" alt="logo">
-          <img class="footer-logo-icon_sp c_sp-only" src="assets/img/footer-logo_sp.png" alt="logo">
-        </a>
-      </div>
-      <div class="link-area">
-        <a class="footer-link" href="">
-          <p class="footer-link-text">
-            会社概要
-          </p>
-        </a>
-        <a class="footer-link" href="">
-          <p class="footer-link-text">
-            プライバシーポリシー
-          </p>
-        </a>
-        <a class="footer-link" href="">
-          <p class="footer-link-text">
-            お問い合わせ
-          </p>
-        </a>
-      </div>
-      <div class="footer-menu-area">
-        <ul class="footer-menu-list">
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">
-              教室紹介
-            </a>
-          </li>
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">
-              初めての方
-            </a>
-          </li>
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">
-              クラス紹介
-            </a>
-          </li>
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">
-              料金
-            </a>
-          </li>
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">
-              発表会
-            </a>
-          </li>
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">
-              Q&A
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="copyright-area">
-        <p class="copyright-text">
-          © 2024 Belle Amour
-        </p>
-      </div>
-    </div>
-  </footer>
-</body>
-
-</html>
+</main>
+<?php get_footer(); ?>

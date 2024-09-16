@@ -1,0 +1,186 @@
+/* Parts - contact_form */
+
+.contact-form{
+  
+  .form-box {
+    padding-top: 48px;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 322px auto;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 44px 60px 52px;
+    background-color: var(--color-dimgray-400);
+  }
+
+  .key-portion {
+    display: flex;
+    align-items: center;
+  }
+
+  .top-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .key-text {
+    font-weight: bold;
+    font-size: var(--font-size-lg);
+    letter-spacing: 0.2em;
+    color: var(--color-rosybrown-300);
+  }
+
+  .sub-text {
+    color: var(--color-black);
+    font-size: var(--font-size-sm);
+  }
+
+  .input-portion {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    br {
+      display: none;
+    }
+  }
+
+  .input-area {
+    padding-top: 8px;
+  }
+
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .input-checkbox {
+    border: 1px solid var(--color-black);
+  }
+
+  .checkbox-label {
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+  }
+
+  .input-portion {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .input-name {
+    width: 241px;
+    height: 54px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-whitesmoke-100);
+  }
+
+  .input-mail {
+    width: min(100%, 560px);
+    height: 54px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-whitesmoke-100);
+  }
+
+  .input-year {
+    width: min(100%, 114px);
+    height: 54px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-whitesmoke-100);
+  }
+
+  .input-date {
+    width: min(100%, 241px);
+    height: 54px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-whitesmoke-100);
+  }
+
+  .input-subtext {
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+  }
+
+  .input-textarea {
+    width: 100%;
+    min-height: 298px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-whitesmoke-100);
+  }
+
+  .top-row {
+    display: grid;
+    grid-template-columns: 123px 123px 195px auto;
+  }
+
+  .bottom-row {
+    display: grid;
+    grid-template-columns: 246px 195px auto;
+  }
+
+  .submit-button {
+    min-width: min(100%, 250px);
+    min-height: 60px;
+    background-color: var(--color-rosybrown-200);
+    color: var(--color-white);
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.6em;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .name-area {
+    margin-top: 31px;
+  }
+
+  .kana-area {
+    margin-top: 32px;
+  }
+
+  .mail-area {
+    margin-top: 30px;
+  }
+
+  .age-area {
+    margin-top: 36px;
+  }
+
+  .experience-area {
+    margin-top: 40px;
+  }
+
+  .experienceYear-area {
+    margin-top: 19px;
+  }
+
+  .demand-area {
+    margin-top: 37px;
+
+    .input-area {
+      display: grid;
+      gap: 13px;
+    }
+  }
+
+  .lesson-area {
+    margin-top: 37px;
+  }
+
+  .content-area {
+    margin-top: 34px;
+  }
+
+  .button-area {
+    padding-top: 37px;
+    display: flex;
+    justify-content: center;
+  }
+}

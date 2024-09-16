@@ -1,0 +1,214 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: var(--header-height-pc);
+  align-self: stretch;
+  background-color: var(--color-white);
+  box-sizing: border-box;
+  position: sticky;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-rosybrown-100);
+  font-family: var(--font-playfair-display);
+  text-align: center;
+
+  .logo-area {
+    line-height: var(--header-height-pc);
+    padding: 25px 0 25px 31px;
+  }
+
+  .logo-icon {
+    height: 100%;
+    aspect-ratio: 559/140;
+  }
+
+  .menu-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: var(--header-height-pc);
+  }
+
+  .menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 60px;
+    padding-right: 60px;
+  }
+
+  .menu-item {
+    display: grid;
+    gap: 8px;
+  }
+
+  .top-text {
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    color: var(--color-rosybrown-100);
+  }
+
+  .bottom-text {
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-noto-serif-jp);
+    color: var(--color-dimgray-200);
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .contact-link {
+    height: 100%;
+  }
+
+  .contact-box {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 12px;
+    line-height: var(--header-height-pc);
+    padding-right: 29px;
+    padding-left: 29px;
+    background: linear-gradient(to right, #F3A291, #D88DA1);
+  }
+
+  .icon-portion {}
+
+  .arrow-right-icon {
+    font-size: 28px;
+    color: var(--color-white);
+  }
+
+  .text-portion {
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .toplink-text {
+    font-size: var(--font-size-3xl);
+    color: var(--color-white);
+  }
+
+  .arrow-icon {
+    width: 30px;
+  }
+
+  .bottomlink-text {
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+    margin: 0;
+  }
+
+
+  .humberger {
+    display: none;
+
+    @media (width < var(--tb-width)) {
+
+      display: block;
+      margin-left: auto;
+      position: relative;
+      z-index: 80;
+      border: none;
+      background-color: transparent;
+      width: var(--header-height-tb);
+      height: var(--header-height-tb);
+      background-color: #dfdfdf;
+    }
+  }
+
+
+  @media (width < var(--tb-width)) {
+    .humberger {
+
+      display: block;
+      margin-left: auto;
+      position: relative;
+      z-index: 80;
+      border: none;
+      background-color: transparent;
+      width: var(--header-height-tb);
+      height: var(--header-height-tb);
+      background-color: #dfdfdf;
+    }
+  }
+
+
+}
+
+@media (width < 1200px) {
+
+  .header {
+    height: var(--header-height-tb);
+
+
+
+    .humberger {
+
+      display: block;
+      margin-left: auto;
+      position: relative;
+      z-index: 80;
+      border: none;
+      background-color: transparent;
+      width: var(--header-height-tb);
+      height: var(--header-height-tb);
+      background-color: #dfdfdf;
+    }
+
+    .humberger.-active .humberger__line {
+      background-color: transparent;
+    }
+
+    .humberger.-active .humberger__line::before {
+      top: 0;
+      transform: rotate(45deg);
+    }
+
+    .humberger.-active .humberger__line::after {
+      top: 0;
+      transform: rotate(-45deg);
+    }
+
+    .humberger.-active .humberger__text::before {
+      content: '閉じる';
+    }
+
+    .humberger__line {
+      display: block;
+      height: 2px;
+      position: absolute;
+      top: calc(23 / 45 * var(--header-height-tb));
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(28/45 * var(--header-height-tb));
+      background-color: #fff;
+      transition: 0.4s;
+    }
+
+    .humberger__line:before,
+    .humberger__line:after {
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      background-color: #fff;
+      transition: inherit;
+    }
+
+    .humberger__line:before {
+      top: calc(-10/45* var(--header-height-tb));
+    }
+
+    .humberger__line:after {
+      top: calc(10/45* var(--header-height-tb));
+    }
+
+  }
+}

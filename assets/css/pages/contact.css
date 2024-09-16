@@ -1,0 +1,28 @@
+/* Contact Page */
+
+
+.contact-page {
+
+  .contact-wrapper {
+    width: min(100%, 1021px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .form-section {
+    padding-top: 71.01px;
+  }
+
+  .main-container {
+    padding-top: 33px;
+  }
+
+  .top-text {
+    text-align: center;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.1em;
+    line-height: 30px;
+    color: var(--color-rightblack);
+  }
+
+}

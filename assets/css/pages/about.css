@@ -1,0 +1,88 @@
+/* About Page */
+
+.about-page {
+  .message-section {
+    padding-top: 70px;
+
+
+    .message-area {
+      padding-top: 40px;
+      display: grid;
+      gap: 30px;
+    }
+
+    .message-text {
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+
+
+  .profile-section {
+    padding-top: 105px;
+
+    .main-area {
+      display: grid;
+      grid-template-columns: 1fr 632px;
+      gap: 61px;
+      padding-top: 63px;
+    }
+
+    .teacher-img {
+      width: 100%;
+      box-shadow: 10px 10px var(--color-rosybrown-200);
+    }
+
+    .name-text {
+      padding-top: 25px;
+      font-size: var(--font-size-5xl);
+      font-weight: bold;
+      color: var(--color-dimgray-300);
+      text-align: center;
+    }
+
+    .history-text {
+      font-size: var(--font-size-base);
+      letter-spacing: 0.1rem;
+      line-height: 1.9em;
+    }
+  }
+
+  .access-section {
+    padding-top: 88.98px;
+
+    .map-area {
+      padding-top: 47.06px;
+    }
+
+    .map-item {
+      width: 100%;
+      height: 360px;
+    }
+
+    .address-area {
+      padding-top: 20px;
+    }
+
+    .address-text {
+      text-align: center;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      font-size: var(--font-size-base);
+    }
+
+    .mail-text {
+      text-align: center;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      font-size: var(--font-size-base);
+    }
+
+    .mail-text-img {
+      display: inline-block;
+      line-height: 28px;
+      width: 220px;
+      margin-top: auto;
+    }
+  }
+}

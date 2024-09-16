@@ -1,0 +1,51 @@
+/* Class Page */
+
+.class-page {
+
+  .inner {
+    display: grid;
+    gap: 120px;
+    padding-top: 69px;
+    width: min(100%, 900px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main-area {
+    padding-top: 45px;
+  }
+
+  .main-image {
+    width: 100%;
+  }
+
+  .text-box {
+    padding-top: 25px;
+  }
+
+  .main-text {
+    font-size: var(--font-size-base);
+    letter-spacing: 0.1em;
+    color: var(--color-black);
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .course-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 23px;
+  }
+
+  .course-item {
+    background-color: var(--color-rosybrown-200);
+    color: var(--color-white);
+    font-weight: bold;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    min-width: min(100%, 250px);
+    text-align: center;
+  }
+
+}

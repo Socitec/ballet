@@ -1,0 +1,74 @@
+/* Parts - price */
+
+.price-section {
+  padding-top: 89.06px;
+
+  th {
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  td {
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .price-table-area {
+    padding-top: 55px;
+  }
+
+  .price-table {
+    width: 100%;
+    border: 1px solid var(--color-gray-200);
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  .price-table-heading {
+    height: 75px;
+    border: 1px solid var(--color-gray-200);
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+    background-color: var(--color-darkpink-100);
+    color: var(--color-white);
+  }
+
+  .price-table-heading--top {
+    width: 408px;
+  }
+
+  .price-table-subheading {
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+  }
+
+  .price-table-data-blank {
+    background-color: var(--color-gray-300);
+    color: var(--color-rightblack);
+    font-size: var(--font-size-base);
+  }
+
+  .price-table-data {
+    color: var(--color-rosybrown-200);
+    background-color: var(--color-white);
+    font-weight: bold;
+    font-size: var(--font-size-base);
+  }
+
+  .price-table-data-bold {
+    font-size: var(--font-size-base);
+    font-weight: 900;
+    background-color: var(--color-white);
+  }
+
+  .price-table-subtext {
+    color: var(--color-rightblack);
+    font-size: var(--font-size-base);
+  }
+
+  .price-table-additionaltext {
+    font-size: var(--font-size-sm);
+  }
+}

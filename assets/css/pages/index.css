@@ -37,11 +37,12 @@
 
   .subheading-text--english {
     letter-spacing: 5px;
+    color: var(--color-rosybrown-300);
   }
 
   .main-text {
     padding-inline-start: 10px;
-    color: var(--color-black);
+    color: var(--color-dimgray-200);
     padding-top: 23px;
     font-size: var(--font-size-base);
     line-height: var(--font-size-5xl);
@@ -72,10 +73,12 @@
     font-size: 15px;
     letter-spacing: 3px;
     font-weight: bold;
+    color: var(--color-white);
   }
 
   .detail-english {
     font-size: 10px;
+    color: var(--color-white);
   }
 
   .subtext {
@@ -93,47 +96,10 @@
 
 .school-section {
   padding-top: 150px;
-
-  .section-image {}
-
-  .box {
-    margin-left: auto;
-    padding: 30px 40px 34px calc(var(--width-various) + var(--width-picture) + 50px - 100%);
-  }
-
-  .button-area {
-    justify-content: end;
-  }
-
-  .subtext {
-    top: -36px;
-    right: -23px;
-    transform: rotate(8.94deg);
-  }
 }
-
 
 .beginner-section {
   padding-top: 110px;
-
-  .section-image {
-    right: 0;
-  }
-
-  .box {
-    margin-right: auto;
-    padding: 40px calc(var(--width-various) + var(--width-picture) + 50px - 100%) 34px 52px;
-  }
-
-  .button-area {
-    justify-content: end;
-  }
-
-  .subtext {
-    top: -25px;
-    left: -32px;
-    transform: rotate(-6.32deg);
-  }
 }
 
 .class-section {
@@ -302,65 +268,15 @@
       gap: 4px;
       color: var(--color-rosybrown-100);
     }
+
+    .triangle-icon {
+      color: var(--color-rosybrown-100);
+    }
+
+    .bottom-text {
+      color: var(--color-rosybrown-100);
+      font-size: var(--font-size-sm);
+    }
   }
 
-}
-
-.contact-section {
-  padding-top: 80px;
-  padding-bottom: 78px;
-
-  .main-box {
-    width: min(595px, 100%);
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    padding: 10px;
-    background: linear-gradient(to top right, var(--color-rosybrown-900), var(--color-rosybrown-800));
-  }
-
-  .inner-frame {
-    padding: 17px 0 19px;
-    border: 1px solid var(--color-white);
-  }
-
-  .heading-portion {
-    display: flex;
-    justify-content: center;
-    gap: 7px;
-    align-items: baseline;
-  }
-
-  .arrow-icon {
-    width: 28px;
-    height: 28px;
-    aspect-ratio: 1/1;
-  }
-
-  .heading-text {
-    color: var(--color-white);
-    font-weight: bold;
-    font-size: var(--font-size-13xl);
-    letter-spacing: 0.05em;
-  }
-
-  .large-text {
-    font-size: var(--font-size-19xl);
-    letter-spacing: 0.08em;
-  }
-
-  .sub-text {
-    padding-top: 3px;
-    padding-bottom: 13px;
-    color: var(--color-white);
-    font-size: var(--font-size-base);
-    letter-spacing: 0.25em;
-  }
-
-  .line-icon {
-    width: 70px;
-    aspect-ratio: 1/1;
-    margin-right: auto;
-    margin-left: auto;
-  }
 }

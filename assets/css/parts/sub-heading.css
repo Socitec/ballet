@@ -1,0 +1,37 @@
+/* Parts - sub-heading */
+
+.t_sub-heading_main-text {
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.5rem;
+  color: var(--color-rosybrown-200);
+  text-align: center;
+}
+
+.t_sub-heading_sub-text {
+  font-family: var(--font-charmonman);
+  font-size: var(--font-size-13xl);
+  color: var(--color-rosybrown-200);
+  margin-left: 33.87px;
+  font-weight: 100;
+}
+
+.t_sub-heading_bottom-text {
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+  color: var(--color-rosybrown-200);
+  text-align: center;
+  letter-spacing: 0.1rem;
+  padding-bottom: 42px;
+}
+
+.t_sub-heading_border-box {
+  display: flex;
+  justify-content: center;
+}
+
+.t_sub-heading_border-item {
+  height: 5px;
+  width: min(100%, 300px);
+  border-top: 2px solid var(--color-rosybrown-400);
+  border-bottom: 2px solid var(--color-rosybrown-400);
+}

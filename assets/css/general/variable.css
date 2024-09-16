@@ -34,10 +34,17 @@
   --color-rosybrown-700: rgba(201, 167, 160, 0.4);
   --color-rosybrown-800: #F3A291;
   --color-rosybrown-900: #D88DA1;
+  --color-darkpink-100: #E0BFC8;
   --color-dimgray-100: #816568;
   --color-dimgray-200: #6e5356;
+  --color-dimgray-300: #6c6366;
+  --color-dimgray-400: #F4EDEC;
   --color-gray-100: rgba(255, 255, 255, 0.6);
+  --color-gray-200: #d9d9d9;
+  --color-gray-300: #F6F5F5;
   --color-whitesmoke: #f7f5f5;
+  --color-whitesmoke-100: #E8E8EC;
+  --color-rightblack: #1E1E1E;
   --color-black: #000;
 
   /* Gaps */
@@ -93,11 +100,18 @@
   /* Width Various */
   --width-main: 1100px;
   --width-various: 889px;
+  --width-various2: 1000px;
   --width-picture: 480px;
+  --width-picture2: 430px;
 
   /* Border radiuses */
   --br-11xl: 30px;
 
   /* header height */
   --header-height-pc: 120px;
+  --header-height-tb: 45px;
+
+  /* Break Point */
+  --tb-width: 1200px;
+  --sp-width: 700px;
 }

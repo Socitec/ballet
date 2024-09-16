@@ -1,0 +1,62 @@
+/* Recital Page */
+
+.question-page {
+
+  .main-container {
+    padding-top: 81px;
+    display: grid;
+    gap: 50px;
+  }
+
+  .question-box {
+    padding: 40px 50px;
+    background-color: var(--color-rosybrown-500);
+  }
+
+  .question-area {
+    border-bottom: 1px solid var(--color-rosybrown-600);
+    padding-bottom: 26px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 22px auto;
+    gap: 12px;
+  }
+
+  .qa-portion {
+    display: flex;
+    align-items: center;
+  }
+
+  .question-prime-text {
+    font-size: var(--font-size-xl);
+    color: var(--color-rosybrown-200);
+    font-weight: bold;
+  }
+
+  .heading-portion {
+    display: flex;
+    align-items: center;
+  }
+
+  .question-text {
+    font-size: var(--font-size-base);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+  }
+
+  .answer-area {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 22px auto;
+    gap: 12px;
+  }
+
+  .answer-text {
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    line-height: 24px;
+    letter-spacing: 0.1em;
+  }
+
+
+}

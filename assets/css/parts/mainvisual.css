@@ -1,0 +1,38 @@
+/* Parts - mainvisual */
+
+.t_mainvisual_section {
+  position: relative;
+  width: 100%;
+}
+
+.t_mainvisual_main-img-pc {
+  width: 100%;
+}
+
+.t_mainvisual_heading-box {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 13.25%;
+  background: linear-gradient(to right, #F3A291, #D88DA1);
+  min-height: 100px;
+  min-width: 500px;
+  padding-left: 80px;
+  padding-right: 77px;
+}
+
+.t_maivisual_top-heading-text {
+  font-size: var(--font-size-5xl);
+  font-weight: bold;
+  color: var(--color-white);
+  letter-spacing: 0.5rem;
+  line-height: 100px;
+}
+
+.t_mainvisual_top-heading-subtext {
+  font-family: var(--font-charmonman);
+  color: var(--color-white);
+  margin-right: 26px;
+  font-size: var(--font-size-13xl);
+  font-weight: 100;
+}
